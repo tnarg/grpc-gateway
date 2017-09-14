@@ -1,10 +1,8 @@
 package abe
 
-import (
-)
+import ()
 
 type ProtobufDuration struct {
-    Seconds  string  `json:"seconds,omitempty"`
-    Nanos  int32  `json:"nanos,omitempty"`
-    
+	Seconds string `json:"seconds,omitempty"`
+	Nanos   int32  `json:"nanos,omitempty"`
 }
